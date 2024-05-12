@@ -1,0 +1,62 @@
+h2 {
+    color: white;
+    position: absolute;
+    top: 120;
+    right: 910;
+    left: 700;
+    width: 50%;
+    height: 10;
+    font-size: 70;
+    font-family: Californian FB;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 1;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+div {
+    position: relative;
+    top: 100;
+    background-image: url('https://i.imgflip.com/1ejo58.jpg?a476472');
+    background-repeat: no-repeat;
+    background-size: 1400px 790px;
+    background-position-y: -100px;
+    border: 3px solid white;
+    border-radius: 20px;
+    height: 690;
+    width: 1600;
+}
+
+.bstyle {
+    position: relative;
+    top: 140;
+    background-color: white;
+    color: black;
+    border: none;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20;
+    font-family: Californian FB;
+}
+
+.cap {
+    font-family: Californian FB;
+    position: absolute;
+    color: white;
+    top: 530;
+    left: 1000;
+    font-size: 30;
+    font-weight: 700;
+}
